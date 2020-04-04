@@ -1,8 +1,8 @@
 <?php
 
-$name = $_POST['name'];
-$work = $_POST['work'];
-$prob = $_POST['prob'];
+$name = $_REQUEST['name'];
+$work = $_REQUEST['work'];
+$prob = $_REQUEST['prob'];
 
 if ( empty( $name ) || empty( $work ) || empty( $prob ) ) {
     echo 'Please fill All Fields';
